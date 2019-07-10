@@ -1,0 +1,95 @@
+
+.bigNav{
+    position: relative;
+    height:0.8rem;
+    z-index: 200;;
+}
+.smallNav{
+    position: absolute;
+    background:#fff;  
+    
+    width:100%;
+    z-index:200;
+}
+.showList::before{
+    content:"";
+    width:100%;
+    height:1px;
+    background:#e4e4e4;
+    transform: scaleY(0.5);
+    position: absolute;
+    left:0;
+    top:0;
+}
+.showList::after{
+    content:"";
+    width:100%;
+    height:1px;
+    background:#e4e4e4;
+    transform: scaleY(0.5);
+    position:absolute;
+    left:0;
+    bottom:0;
+}
+.showList{
+    width:100%;
+    position: relative;
+    background:#fff
+}
+.showList ul{
+    width:100%;
+    height:100%;
+
+    list-style: none;
+}
+.showList li{
+    
+    color:#666;
+    font-size:0.28rem;
+    position: relative;
+    display: inline-block;
+    width:25%;
+    line-height:0.8rem;
+    text-align:center;
+}
+.hideList{
+    width:100%;
+
+}
+.hideList ul{
+    width:100%;
+    position: absolute;
+}
+.hideList li{
+    position: relative;
+    z-index: 199;
+    width:100%;
+    background:#fff;
+    height:0.84rem;
+    line-height:0.84rem;
+    padding-left:0.3rem;
+    font-size:0.28rem;
+    color:#333;
+    list-style: none;
+}
+.hideList li::after{
+    content:" ";
+    width:100%;
+    height:1px;
+    background:#e4e4e4;
+    transform-origin:0 0;
+    transform:scaleY(0.5);
+    position:absolute;
+    left:0;
+    bottom:0;
+}
+.bkg{
+    display:none;
+    position: fixed;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0.8rem;
+    background:rgba(0,0,0,0.5);
+    z-index:100;
+}

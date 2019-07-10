@@ -1,0 +1,42 @@
+.box{
+    overflow: hidden;
+    background:#fff;
+    max-height:4.4rem;
+    padding-top:1rem;
+}
+.box .up{
+    display:flex;
+}
+.box .special{
+    flex-grow:1;
+    flex-basis:0;
+    flex-shrink:0
+}
+.box .common{
+    flex-grow:2;
+    flex-basis:0;
+    flex-shrink:0
+}
+.box .smallBox{
+    display:block;
+    width:0.88rem;
+    text-align:center;
+    position:relative;
+}
+.smallBox .smallUp{
+    width:0.88rem;
+    height:0.88rem;
+    margin-bottom:0.1rem;
+    margin-top:0.3rem;
+}
+.smallUp>img{
+    width:100%;
+}
+.smallBox .smallDown{
+    width:0.88rem;
+    line-height:1.4;
+    white-space:nowrap;
+    color:#000;
+    font-size:0.22rem;
+    text-align:center
+}

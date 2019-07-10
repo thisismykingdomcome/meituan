@@ -1,0 +1,17 @@
+.content{
+    
+    width:100%;
+    height:13.34rem;
+    padding-bottom:1rem;
+    
+}
+h1{
+    font-size:0.34rem;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-weight: bolder;
+    line-height:1.4;
+    padding-top:0.3rem;
+    padding-bottom:0.1rem;
+}
